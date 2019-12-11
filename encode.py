@@ -6,6 +6,9 @@
 import argparse
 import numpy as np
 
+import sys
+sys.path.insert(1, './src')
+
 import encoder
 from load_dataset import load_dataset
 
